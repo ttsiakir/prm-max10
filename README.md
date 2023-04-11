@@ -13,7 +13,7 @@ https://gitlab.cern.ch/atlas-tdaq-p2-firmware/tdaq-htt-firmware/prm-fw-group/prm
 
 SMBus FSM Diagram:
  
- '''mermaid
+'''mermaid
 flowchart 
     B(((ready)))-->X{ena}
     X-->|'1'|C[start]
